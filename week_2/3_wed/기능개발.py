@@ -2,7 +2,7 @@ def solution(progresses, speeds):
     answer = []
     date = []
     score = 0
-    
+    #ff
     for i in range(len(progresses)):
         a = (100-progresses[i])%speeds[i]
         b = (100-progresses[i])//speeds[i]
